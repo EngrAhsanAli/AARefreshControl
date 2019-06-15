@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AARefreshControl_Example' do
+  pod 'AARefreshControl', :path => '../'
+
+  target 'AARefreshControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
