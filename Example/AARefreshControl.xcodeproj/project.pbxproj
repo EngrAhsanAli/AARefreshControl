@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0F013A15F09FC2D28575F5D8 /* Pods_AARefreshControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AARefreshControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F9CF1C3EA112757CD28BEC6 /* AARefreshControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AARefreshControl.podspec; path = ../AARefreshControl.podspec; sourceTree = "<group>"; };
-		2026E022B99E06614A62CFA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F9CF1C3EA112757CD28BEC6 /* AARefreshControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AARefreshControl.podspec; path = ../AARefreshControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2026E022B99E06614A62CFA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		27D66F36382981364E5F4E69 /* Pods-AARefreshControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AARefreshControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-AARefreshControl_Tests/Pods-AARefreshControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3486E5D5668C7F5918A4F577 /* Pods-AARefreshControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AARefreshControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AARefreshControl_Tests/Pods-AARefreshControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5468D18CBE220B034B15B62A /* Pods_AARefreshControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AARefreshControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		70810AC7B41A68D8981FBE4E /* Pods-AARefreshControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AARefreshControl_Example.debug.xcconfig"; path = "Target Support Files/Pods-AARefreshControl_Example/Pods-AARefreshControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D02812B63596B9F0A40A992F /* Pods-AARefreshControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AARefreshControl_Example.release.xcconfig"; path = "Target Support Files/Pods-AARefreshControl_Example/Pods-AARefreshControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E4E9C8C6F83F6934AB36A233 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4E9C8C6F83F6934AB36A233 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				3486E5D5668C7F5918A4F577 /* Pods-AARefreshControl_Tests.debug.xcconfig */,
 				27D66F36382981364E5F4E69 /* Pods-AARefreshControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,11 +212,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -487,8 +487,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -502,8 +501,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -523,8 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AARefreshControl_Example.app/AARefreshControl_Example";
 			};
 			name = Debug;
@@ -541,8 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AARefreshControl_Example.app/AARefreshControl_Example";
 			};
 			name = Release;

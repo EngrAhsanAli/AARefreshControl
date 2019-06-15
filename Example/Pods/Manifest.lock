@@ -1,0 +1,16 @@
+PODS:
+  - AARefreshControl (0.1.0)
+
+DEPENDENCIES:
+  - AARefreshControl (from `../`)
+
+EXTERNAL SOURCES:
+  AARefreshControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AARefreshControl: 87a7ca5d3dc1c7aec7be84c55952397914a4556d
+
+PODFILE CHECKSUM: 5b697cc9b010ee5ab4ca562e6bd6e4dfa4ac86ef
+
+COCOAPODS: 1.6.2
